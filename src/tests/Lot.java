@@ -19,7 +19,10 @@ public class Lot
     public double superficie = 0.0;
     public Date Date_Mesure = null;    
    
-   public  double Calcul_ValeurFonciere()
+    public double Valeur_Fonciere;
+    public double Valeur_Droit_Passage;
+
+    public  double Calcul_ValeurFonciere()
    {
        return 0;
    }
