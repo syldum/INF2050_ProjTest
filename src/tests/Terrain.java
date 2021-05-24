@@ -24,6 +24,12 @@ public abstract class Terrain {
  public double Prix_Moyen;
  public double Prix_Maximum;
  public int NbLots;
+ 
+ public double Valeur_Fonciere;
+ public double Taxes_Scolaire;
+ public double Taxes_Municipale;
+ 
+ 
  private ArrayList<Lot> Lots;
  
  public void AddLots(Lot lot)
